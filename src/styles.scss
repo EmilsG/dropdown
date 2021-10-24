@@ -1,0 +1,64 @@
+@import "reset.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #090a0a;
+  margin: 31px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 1.4;
+}
+
+.dropdown {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.button {
+  background-color: #246ce2;
+  color: #ffffff;
+  padding: 18px 58px;
+  border-radius: 4px;
+  border: transparent;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  display: flex;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 0px 18px 64px -8px rgba(28, 50, 79, 0.38),
+    0px 4px 24px -3px rgba(28, 55, 90, 0.16);
+  z-index: 1;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.show-content {
+  display: block;
+}
+
+.button__dropdown {
+  background-color: #ffffff;
+  color: #616161;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.button__dropdown:hover {
+  background-color: #e1f5fe;
+  color: #0091ea;
+}
